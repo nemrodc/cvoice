@@ -1,0 +1,14 @@
+name: cosyvoice
+channels:
+  - conda-forge
+dependencies:
+  # ───── nuevas deps ─────
+  - fastapi              # API / WebSocket
+  - uvicorn              # ASGI server
+  - websockets           # cliente test
+  - structlog            # logging estructurado
+  - pydantic>=2.0        # validación JSON
+  - pytest               # opcional p/ tests
+  - pip
+  - pip:
+      - starlette~=0.35  # FastAPI 1.x necesita esta versión

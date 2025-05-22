@@ -1,0 +1,10 @@
+# ─── Dependencias para cosyvoice/ws_server ──────────────────────────
+fastapi==0.115.6           # API + WebSocket bidireccional
+uvicorn==0.30.0            # ASGI server de alto rendimiento
+websockets==12.0           # cliente / pruebas (opcional en prod)
+structlog==24.1.0          # logging estructurado
+starlette~=0.35            # sub‑dep explícita que fija versión estable
+pytest>=8.2,<9.0           # test unitarios (solo en dev)
+pydantic_settings==2.9.1
+pydantic==2.7.0
+pydantic-core==2.18.1
